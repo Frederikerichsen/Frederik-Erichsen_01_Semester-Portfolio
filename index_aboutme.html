@@ -20,7 +20,7 @@
     <link rel="shortcut icon" href="image/favicon.ico" type="image/x-icon">
     <link rel="icon" href="image/favicon.ico" type="image/x-icon">
     <!-- FAVICON SLUT -->
-    <title>About</title>
+    <title>Portfolio - Tema01</title>
 </head>
 
 <body>
@@ -28,8 +28,7 @@
     <!-- SPLASH SLUT -->
 
     <!-- MENU START -->
-
-    <div id="menucontainer">
+    <section id="menucontainer">
         <ul>
             <!-- Home part -->
             <li><a href="index_home.html"><span>Home</span></a></li>
@@ -40,43 +39,92 @@
                 <div id="dropbtn"><span id="ddnothing">Portfolio</span></div>
                 <div id="myDropdown" class="dropdown-content">
                     <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
-                    <a href="index_portfolio.html"><span class="semesterfarver">1. Semester</span></a>
 
-                    <a href="index_tema01.html"><span class="tema01_roed">Tema01</span></a>
+                    <a href="index_portfolio.html"><span>1. Semester</span></a>
 
-                    <a href="index_tema02.html"><span class="tema02_blaa">Tema02</span></a>
-                    <a href="index_tema03.html"><span class="tema03_groen">Tema03</span></a>
-                    <a href="index_tema04.html"><span class="tema04_orange">Tema04</span></a>
+                    <a href="index_tema01.html"><span class="tema01_roed">Tema 01</span></a>
+
+                    <a href="index_tema02.html"><span class="tema02_blaa">Tema 02</span></a>
+                    <a href="index_tema03.html"><span class="tema03_groen">Tema 03</span></a>
+                    <a href="index_tema04.html"><span class="tema04_orange">Tema 04</span></a>
+
                 </div>
-
                 <!-- dropdown part -->
-
-                <!-- about part -->
-                <li><a class="aboutactive" href="index_aboutme.html"><span>About</span></a></li>
-                <!-- about part -->
+            </li>
+            <!-- about part -->
+            <li><a class="aboutactive" href="index_aboutme.html"><span>About</span></a></li>
+            <!-- about part -->
         </ul>
-    </div>
+    </section>
     <!-- MENU SLUT -->
 
 
     <!-- TOP BANNER START-->
-    <div class="logo">
-        <img src="image/HTML5_CSS_JavaScript.png" alt="Privat snak logo">
-    </div>
 
-    <div id="overskrifter">
-        <h1>Portfolio</h1>
-        <h2>Frederik Erichsen</h2>
-    </div>
+    <section id="about">
+        <div class="aboutsectionwrapper">
+            <div class="aboutcolumn">
+
+                <video id="visitkort" autoplay>
+                  <source id="mp4_src" src="video/visitkort.mp4" type="video/mp4">
+                  <source id="ogg_src" src="mov_bbb.ogg" type="video/ogg">
+                </video>
+                <img id="visitkortstill" src="image/visitkortstill.png" alt="visitkortstill">
+            </div>
+            <div class="aboutcolumn">
+
+                <h2><span class="h1dekoration">Hvem er jeg?</span></h2>
+                <br>
+                <p>Mit navn er Frederik, Jeg er 25 år og bor sammen med min kæreste på Østerbro. Vi har ikke nogle kæledyr, men til gengæld ejer jeg en 70kg tung stenløve der hedder Simba. Grunden til jeg søgte ind på multimediedesign skyldes min store begejstring og interesse indenfor design, animation og video. Jeg har de sidste 8 år arbejdet i filmbranchen, så jeg ved en hel del om formater, klip og grafik. Jeg vil beskrive mig selv som imødekommende, udadvendt og altid klar på en udfordring. Jeg er fuld af gåpåmod og elsker at give mig i kast med diverse projekter. Jeg er meget passioneret omkring mit arbejde og hader at gøre noget halvt!
+            </div>
+
+            <div class="aboutcolumn">
+                <h2><span class="h1dekoration">Uddannelse  &amp; Erhvervserfaring</span></h2>
+                <br>
+                <ul style="list-style-type:disc">
+                    <li>2009 – 2012. STX – Studentereksamen på Det Frie Gymnasium </li>
+                    <li>2011 – 2014. Ansat som Runner på diverse reklamefilm, kortfilm og 1 enkel spillefilm.</li>
+                    <li>2013 – 2014. Feist APS. Ansat som Onlining Assistant.</li>
+                    <li>2014 – 2016. Discovery Network Denmark. Ansat som Versioning Producer.</li>
+                    <li>2016 – 2017. Metronome Produktions A/S. Ansat som Klippeassistent.</li>
+                    <li>2017 – Begyndt på uddannelsen multimediedesign på KEA.</li>
+                    <li>2017 – Freelance i filmbranchen.</li>
+
+                </ul>
+            </div>
+            <div class="aboutcolumn">
+                <h2><span class="h1dekoration">Tekniske Kompetencer</span></h2>
+                <br>
+                <ul style="list-style-type:disc">
+                    <li>Formater, Filhåndtering &amp; Backup</li>
+                    <li>HTML &amp; CSS</li>
+                    <li>JavaSript &amp; jQuery</li>
+                    <li>Adobe Photoshop</li>
+                    <li>Adobe Illustrator</li>
+                    <li>Adobe InDesign</li>
+                    <li>Adobe XD</li>
+                    <li>Adobe Premier Pro</li>
+                    <li>Adobe After Effects</li>
+                    <li>Adobe Media Encoder</li>
+                    <li>FCP 7 og Final Cut Pro 10</li>
+                    <li>Avid Media Composer</li>
+
+                </ul>
+            </div>
+        </div>
+    </section>
+
     <!-- TOP BANNER SLUT-->
-    <div id="link_til_animation">
-        <img src="image/HTML5_CSS_JavaScript.png" alt="billede"></div>
-    <div id="link_til_animation2">
-    </div>
+    <!-- TAG ET KIG START-->
 
+
+    <!-- FOOTER START-->
+    <footer>©reated by - Frederik Erichsen </footer>
+    <!-- FOOTER SLUT-->
 
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script src="javaportfolio.js"></script>
+    <script src="javaportfolio_search.js"></script>
+
 </body>
 
 </html>

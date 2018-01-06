@@ -27,7 +27,7 @@ body {
     sans-serif;
     margin: 0;
     background-color: #223040;
-    min-width: 400px;
+    min-width: 300px;
 }
 
 /*--------CSS GENERAL SETTINGS SLUT--------*/
@@ -89,7 +89,7 @@ p {
     z-index: 100;
 }
 
-ul {
+#menucontainer ul {
     list-style-type: none;
     margin-top: 0px;
     padding: 0;
@@ -98,7 +98,7 @@ ul {
     box-shadow: 1px 2px 16px 1px rgba(0, 0, 0, 0.5);
 }
 
-li {
+#menucontainer li {
     float: left;
 }
 
@@ -191,6 +191,11 @@ li a:hover,
 
 #ddnothing {
     cursor: default;
+    color: #f1f1f1;
+}
+
+#ddnothing:hover {
+    cursor: default;
     color: #A9B9CA;
 }
 
@@ -267,6 +272,92 @@ li a:hover,
 /*--------Dropdown--------*/
 
 /*--------DROPDOWN MENU SLUT--------*/
+
+/*--------ABOUT ME START--------*/
+
+/*<div class="bgimage"></div>
+.bgimage {
+    background-image: url("image/splash/20150917_141946.jpg");
+    min-height: 500px;
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 1px 8px 16px 1px rgba(0, 0, 0, 0.5);
+
+}*/
+
+#about {
+
+    text-align: center;
+    clear: both;
+    background-color: #223040;
+    padding: 10px 0px;
+    width: 100%;
+}
+
+.aboutsectionwrapper {
+    display: inline-block;
+    flex-wrap: wrap;
+    width: auto;
+    height: auto;
+}
+
+.aboutcolumn {
+    padding: 0 2em 1em 2em;
+    /*Jeg ved ikke hvorfor men denne padding er skyld i at der i mobil-mode altid vil være en bare på 1 cm i alle browser vinduer*/
+}
+
+#about .h1dekoration {
+    top: -20px;
+    font-size: 1.8em;
+    transition: all 200ms ease-in;
+    color: #f1f1f1;
+}
+
+#about .h1dekoration:hover {
+    font-size: 2.0em;
+    transition: all 200ms ease-in;
+    border-bottom: 1px solid #1c1e2a;
+    z-index: 2;
+    color: #A9B9CA;
+    cursor: default;
+}
+
+#visitkortstill,
+#visitkort {
+    height: auto;
+    width: 100%;
+
+}
+
+
+#about h2 {
+    text-transform: capitalize;
+    margin-top: -10px;
+    text-align: center;
+    font-size: 1.8em;
+    color: #A9B9CA;
+}
+
+#about p {
+    margin-top: -2px;
+    color: #f1f1f1;
+    text-align: center;
+    cursor: default;
+}
+
+#about li {
+
+    text-align: left;
+    color: #f1f1f1;
+}
+
+#about ul {
+    margin-top: -2px;
+}
+
+/*--------ABOUT ME SLUT--------*/
 
 /*--------TEMA HEADLINE START--------*/
 
@@ -420,17 +511,6 @@ li a:hover,
     padding: 0 2em 1em 2em;
     /*Jeg ved ikke hvorfor men denne padding er skyld i at der i mobil-mode altid vil være en bare på 1 cm i alle browser vinduer*/
 }
-
-
-/*.bgimage {
-  <div class="bgimage"></div>
-    background-image: url("image/background.jpg");
-    min-height: 500px;
-    background-attachment: scroll;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    box-shadow: 1px 8px 16px 1px rgba(0, 0, 0, 0.5);}*/
 
 #temasexogsamfund,
 #temahotdawg,

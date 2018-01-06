@@ -1,3 +1,19 @@
+$(window).on("load", startvisitkort);
+
+
+function startvisitkort() {
+    console.log("start");
+    $("#visitkortstill").hide();
+
+    setTimeout(fadeout, 5500);
+}
+
+function fadeout() {
+    console.log("funktion fadeud");
+    $("#visitkort").hide();
+    $("#visitkortstill").show();
+}
+
 function filterFunction() {
     var input, filter, ul, li, a, i;
     input = document.getElementById("myInput");
