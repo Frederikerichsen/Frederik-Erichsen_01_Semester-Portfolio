@@ -74,6 +74,7 @@ h5 {
 
 p {
     margin-top: 0;
+    font-size: 1em;
     font-family: 'Open Sans',
     sans-serif;
 }
@@ -762,8 +763,8 @@ a,
 
 /*--------RED-------*/
 
-#overskrifter .tilbageknap {
-
+#overskrifter #popart,
+.tilbageknap {
     box-shadow: 1px 8px 16px 1px rgba(0, 0, 0, 0.5);
     background-color: #af3d3d;
     color: #f1f1f1;
@@ -774,9 +775,12 @@ a,
     transition: all 200ms ease-in;
 }
 
+
+
 /*--------BLUE-------*/
 
-#overskrifter .tilbageknap2 {
+#overskrifter #printerrefill,
+.tilbageknap2 {
 
     box-shadow: 1px 8px 16px 1px rgba(0, 0, 0, 0.5);
     background-color: #303090;
@@ -790,7 +794,8 @@ a,
 
 /*--------GREEN-------*/
 
-#overskrifter .tilbageknap3 {
+#overskrifter #printerrefill,
+.tilbageknap3 {
     box-shadow: 1px 8px 16px 1px rgba(0, 0, 0, 0.5);
     background-color: #1b722f;
     color: #f1f1f1;
@@ -803,7 +808,8 @@ a,
 
 /*--------ORANGE-------*/
 
-#overskrifter .tilbageknap4 {
+#overskrifter #printerrefill,
+.tilbageknap4 {
     box-shadow: 1px 8px 16px 1px rgba(0, 0, 0, 0.5);
     background-color: #b54f18;
     color: #f1f1f1;
@@ -814,7 +820,8 @@ a,
     transition: all 200ms ease-in;
 }
 
-#overskrifter .tilbageknap:hover,
+#overskrifter #popart,
+#printerrefill .tilbageknap:hover,
 .tilbageknap2:hover,
 .tilbageknap3:hover,
 .tilbageknap4:hover {
@@ -822,6 +829,8 @@ a,
     transition: all 200ms ease-in;
     z-index: 20;
 }
+
+/*--------SPLASH iMAGES--------*/
 
 #splashimage1 {
     text-align: center;
@@ -835,10 +844,21 @@ a,
     box-shadow: 1px 8px 16px 1px rgba(0, 0, 0, 0.5);
 }
 
+#splashimage2 {
+    text-align: center;
+    background-image: url("image/tema03/virksomhedsvideo.png");
+    height: 100%;
+    min-height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 1px 8px 16px 1px rgba(0, 0, 0, 0.5);
+}
+
 /*--------TEMA 1 - POPART START--------*/
 
 #popart {
-    text-align: center;
     clear: both;
     background-color: #223040;
     padding: 10px 0px;
@@ -846,7 +866,7 @@ a,
 }
 
 .tools {
-    text-align: center;
+    text-align: left;
 }
 
 #popart .popartsectionwrapper {
@@ -859,11 +879,97 @@ a,
     padding: 1vw 18vw;
 }
 
+#popart .pictures {
+    box-shadow: 0px -1px 30px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    text-align: center;
+    width: 100%;
+}
+
 #popart .tools img {
-    width: 90%;
+    width: 50%;
+}
+
+#popart cite {
+    text-align: right;
+    font-size: 0.9em;
+    color: #A9B9CA;
 }
 
 #popart h5 {
+    letter-spacing: 0.5px;
+    font-size: 1.2em;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #f1f1f1;
+    text-transform: uppercase;
+
+}
+
+#popart p {
+    margin-top: -2px;
+    color: #f1f1f1;
+    text-align: left;
+    cursor: default;
+}
+
+.klikherknap {
+    text-align: left;
+    margin-top: -8px;
+    margin-left: 20px;
+}
+
+#popart li {
+    text-align: left;
+    color: #f1f1f1;
+}
+
+#popart ul {
+    margin-top: -10px;
+}
+
+
+
+/*--------TEMA 1 - POPART SLUT--------*/
+
+/*--------TEMA 1 & 3 - PRINTERREFILL START--------*/
+
+#printerrefill {
+    clear: both;
+    background-color: #223040;
+    padding: 10px 0px;
+    width: 100%;
+}
+
+
+#printerrefill .printerrefillsectionwrapper {
+    display: inline-block;
+    flex-wrap: wrap;
+
+}
+
+#printerrefill .printerrefillcolumn {
+    padding: 1vw 18vw;
+}
+
+#printerrefill .pictures {
+    box-shadow: 0px -1px 30px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+#printerrefill .tools img {
+    width: 50%;
+}
+
+#printerrefill cite {
+    text-align: right;
+    font-size: 0.9em;
+    color: #A9B9CA;
+}
+
+#printerrefill h5 {
+    letter-spacing: 0.5px;
     font-size: 1.2em;
     font-family: 'Roboto Condensed', sans-serif;
     color: #f1f1f1;
@@ -872,7 +978,81 @@ a,
 }
 
 
-/*--------TEMA 1 - POPART SLUT--------*/
+
+#printerrefill h2 {
+    margin-top: -20px;
+    transition: all 200ms ease-in;
+    text-transform: capitalize;
+    text-align: left;
+    font-size: 2.2em;
+    color: #f1f1f1;
+}
+
+#printerrefill h2:hover {
+    font-size: 2.4em;
+    transition: all 200ms ease-in;
+    border-bottom: 1px solid #1c1e2a;
+    z-index: 2;
+    color: #A9B9CA;
+    cursor: default;
+}
+
+#printerrefill p {
+    margin-top: -2px;
+    color: #f1f1f1;
+    text-align: left;
+    cursor: default;
+}
+
+#printerrefill li {
+    text-align: left;
+    color: #f1f1f1;
+}
+
+#printerrefill ul {
+    margin-top: -10px;
+}
+
+#printerrefill a,
+.laesmere {
+    color: #577ce2;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#printerrefill .tema03_farve {
+
+    background-color: #1b722f;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#printerrefill .laesmere:hover {
+    color: #3f21e3;
+}
+
+/*--------TEMA 1 & 3 - PRINTERREFILL SLUT--------*/
+
+/*--------GENERALLE VIDEO SETTINGS--------*/
+
+.hs-responsive-embed-youtube iframe {
+    margin-top: -10px;
+    border-radius: 10px;
+    box-shadow: 1px 8px 16px 1px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    width: 100%!important;
+    height: 100%!important;
+}
+
+.hs-responsive-embed-youtube {
+
+    position: relative;
+    padding-bottom: 56.25%;
+    /* 16:9 Aspect Ratio */
+    padding-top: 0px;
+}
+
+/*--------GENERALLE VIDEO SETTINGS--------*/
 
 /*--------FOOTER START--------*/
 
