@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="da">
+
+
+
+<!-- PRÆSENTATION START -->
+<!-- PRÆSENTATION SLUT -->
+
+<head>
+    <meta name="robots" content="noindex">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheetportfolio.css">
+    <!-- FONT START -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?Roboto+Condensed" rel="stylesheet">
+    <!-- FONT SLUT -->
+    <!-- FAVICON START -->
+    <link rel="shortcut icon" href="image/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="image/favicon.ico" type="image/x-icon">
+    <!-- FAVICON SLUT -->
+    <title>Tema04 - Øvelsescase</title>
+</head>
+
+<body>
+
+
+    <!-- MENU START -->
+    <section id="menucontainer">
+        <ul>
+            <!-- Home part -->
+            <li><a href="index_home.html"><span>Home</span></a></li>
+            <!-- Home part -->
+
+            <!-- dropdown part -->
+            <li class="dropdown">
+                <div id="dropbtn" class="dropdownfarve"><span id="ddnothing">Portfolio</span></div>
+                <div id="myDropdown" class="dropdown-content">
+                    <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+
+                    <a href="index_portfolio.html"><span>1. Semester</span></a>
+
+                    <a href="index_tema01.html"><span class="tema01_roed">Tema 01</span></a>
+
+                    <a href="index_tema02.html"><span class="tema02_blaa">Tema 02</span></a>
+                    <a href="index_tema03.html"><span class="tema03_groen">Tema 03</span></a>
+                    <a class="tema04_farve" href="index_tema04.html"><span class="tema04_orange">Tema 04</span></a>
+
+                </div>
+                <!-- dropdown part -->
+            </li>
+            <!-- about part -->
+            <li><a href="index_aboutme.html"><span>About</span></a></li>
+            <!-- about part -->
+        </ul>
+    </section>
+    <!-- MENU SLUT -->
+
+
+    <!-- TOP BANNER START-->
+    <section id="overskrifter">
+
+        <a href="index_portfolio.html">
+            <h5><span class="tilbageknap4">
+                Tilbage til Tema 04
+                </span></h5>
+        </a>
+        <h1><span class="h1dekoration">Øvelsescase<br>Kea Skema App</span></h1>
+
+
+    </section>
+    <!-- TOP BANNER SLUT-->
+
+    <!-- POP ART -->
+    <div id="splashimage6">
+    </div>
+
+
+    <!-- Dokumentation af projekt-->
+
+    <section id="ux">
+        <div class="uxsectionwrapper">
+            <div class="uxcolumn">
+                <!-- VÆRKTØJER BRUGT START-->
+                <div class="tools">
+                    <h5>Værktøjer brugt i opgaven:</h5>
+                    <img src="image/tema04/vaerktojer_Ux.svg" alt="logo"></div>
+                <!-- VÆRKTØJER BRUGT SLUT-->
+
+                <p>I dette projekt havde vi Sex og Samfund som kunde, med fokus på deres rådgivningscenter PrivatSnak for unge i alderen 12-15 årige. Vi blev stillet til opgave, at skabe opmærksomhed omkring Privatsnak.dk og lave et dilemmaspil om billeddeling på nettet. Spillet skulle kunne deles via Facebook og Instagram, i form af en gamificeret annonce der linker til privatsnak.dk. Vi blev tildelt grupper og denne gang skulle vi dokumentere hele processen via et site. Vi blev introduceret til et koordineringsprogram der hedder Trello så vi kunne uddelegere opgaverne blandt gruppemedlemmerne.</p>
+
+                <p><b class="boldfont">Spillets Ide</b><br>Spillet fungerer som first person point of view, hvor brugeren selv bliver stillet overfor det centrale dilemma. Man mødes af en app-lignende baggrund, lidt alla tinder. Her er der et billede centralt på desktoppen, hvor brugeren nu bliver stillet i et dilemma om billedet burde deles eller ej. Efter brugeren har truffet et valg, forsvinder billedet og et nyt dukker op. Brugeren skal nu tage stilling til det næste billede og sådan fortsætter billederne med at dukke op. Jo længere man spiller, spillet jo hurtigere skal brugeren beslutte sig og efter ca. 30 sek. går tiden så hurtigt, at brugeren ikke vil kunne nå at integrere. Billederne vil automatisk blive delt og brugeren vil ikke kunne gøre noget. Spillet stopper og man har tabt. Herefter kommer krediteringsbilledet med payoff tekst. Spillet kan nu reloades.<br></p>
+
+                <p><b class="boldfont">Karakterdesign</b><br>Stilen til vores karakter design er Inspireret af spillet “Dumb ways to die” blandet med “Liza Vertudaches” karakterudtryk, for at skabe liv og humor til karakterens personligheder. Karakterdesignet er enkelt og der bruges bløde organiske former. Karakterende skal fremstå kønsløse, nuttede, uskyldige og sjove så de passer til målgruppen 13-15 årige. <br>Vi fandt på 3 kønsløse navne til vores karakterer, Hvalen René, Pickle Charlie og Tyggis Kim. (Tyggis er slang for tyggegummi på norsk) Vi gjorde dette fordi Privatsnak går meget op i ikke at skabe stereotype situationer, undertrykke køn eller udstille etniske grupper. </p>
+                <img class="pictures" src="image/tema02/sexogsamf_karaktere.PNG" alt="logo">
+                <cite>Her ses de 3 karakterer</cite><br>
+                <p><br><b class="boldfont">Kodningen af Animation</b><br>Udgangspunktet var at holde animationen enkel så vi i gruppen kunne fokusere mere på designet. Jeg havde lært en masse JavaScript fra det tidligere animationsprojekt, men efterhånden fandt jeg ud af, at vores ide havde en helt andet struktur end sidste emnes animationsprojekt. Det var ikke en start til slut fortælling med 2 valg, en Random-faktor og en leg.
+                    <br>Vores spil skulle loopes i neavuer, hvor spillet blev svære da tiden gik hurtigere og alt blev påvirket af Randomvalg! Alt efter hvilket billede der kom frem og hvilket valg brugeren tog skulle en Spriteanimation af Pickle Charlie påvirkes af det valg, ved enten at blive ked af det eller glad. For at holde styr på alle processerne og elementerne i JavaScript, fik jeg udviklet et lidt alternativt sekvensdiagram der viser hele spil processen. Jeg har brugt diagrammet meget som hjælpemiddel til kodningen af spillet. </p>
+                <img class="pictures" src="image/tema02/sexogsamfund_sekvensdiagram.PNG" alt="logo">
+                <cite>Her ses loop funktionen af diagrammet</cite>
+
+                <p><br><b class="boldfont">Fernisering</b><br> Til ferniseringen gik vi all in på vores stand med små sugerørsstaffelier med polaroid billeder og store papfigurer af vores animationer.
+                </p>
+                <img class="pictures" src="image/20180105_131100.jpg" alt="logo">
+
+                <img class="pictures" src="image/20180105_131145.jpg" alt="logo">
+
+                <div class="links">
+                    <h5>For at se Dokumentationssitet:</h5>
+
+                    <div class="klikherknap">
+                        <a href="http://frederikerichsen.dk/portfolio/dokumentation/tema02/dokumentations_site_swipeitoff/index.html" target="_blank">
+                            <h5><span class="tilbageknap2">
+                            Klik Her
+                            </span></h5>
+                        </a>
+                    </div>
+
+                    <h5>For at prøve Animationsspillet:</h5>
+                    <div id="app_link">
+
+                        <a href="https://xd.adobe.com/view/1abe7fe6-6760-4fab-b930-8465a406209c" target="_blank">
+         <img src="image/ikon.png" alt="App"></a>
+                    </div>
+                    <div class="klikherknap">
+                        <a href="http://anjaholstnielsen.dk/kea/02-admimation/swipe_it_off/intro.html" target="_blank">
+                            <h5><span class="tilbageknap2">
+                            Klik Her
+                            </span></h5>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- POP ART -->
+
+    <!-- FOOTER START-->
+
+    <footer>©reated by - Frederik Erichsen </footer>
+    <!-- FOOTER SLUT-->
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="javaportfolio_search.js"></script>
+
+</body>
+
+</html>

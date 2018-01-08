@@ -897,6 +897,30 @@ a,
     box-shadow: 1px 8px 16px 1px rgba(0, 0, 0, 0.5);
 }
 
+#splashimage6 {
+    text-align: center;
+    background-image: url("image/tema04/ovelsescase%20-%20kea%20skema.png");
+    height: 100%;
+    min-height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 1px 8px 16px 1px rgba(0, 0, 0, 0.5);
+}
+
+#splashimage7 {
+    text-align: center;
+    background-image: url("image/tema02/sexogsamfund.png");
+    height: 100%;
+    min-height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 1px 8px 16px 1px rgba(0, 0, 0, 0.5);
+}
+
 /*--------TEMA 1 - POPART START--------*/
 
 #popart {
@@ -1272,6 +1296,117 @@ a,
 }
 
 /*--------TEMA 3 - CPHDOX SLUT--------*/
+
+#ux {
+    clear: both;
+    background-color: #223040;
+    padding: 10px 0px;
+    width: 100%;
+}
+
+
+#ux .uxsectionwrapper {
+    display: inline-block;
+    flex-wrap: wrap;
+
+}
+
+#ux .uxcolumn {
+    padding: 1vw 18vw;
+}
+
+#ux .pictures {
+    box-shadow: 0px -1px 30px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+#ux .tools img {
+    width: 50%;
+}
+
+#ux cite {
+    text-align: right;
+    font-size: 0.9em;
+    color: #A9B9CA;
+}
+
+#ux h5 {
+    letter-spacing: 0.5px;
+    font-size: 1.2em;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #f1f1f1;
+    text-transform: uppercase;
+
+}
+
+#ux h2 {
+    margin-top: -20px;
+    transition: all 200ms ease-in;
+    text-transform: capitalize;
+    text-align: left;
+    font-size: 2.2em;
+    color: #f1f1f1;
+}
+
+#ux h2:hover {
+    font-size: 2.4em;
+    transition: all 200ms ease-in;
+    border-bottom: 1px solid #1c1e2a;
+    z-index: 2;
+    color: #A9B9CA;
+    cursor: default;
+}
+
+#ux p {
+    margin-top: -2px;
+    color: #f1f1f1;
+    text-align: left;
+    cursor: default;
+}
+
+#ux li {
+    text-align: left;
+    color: #f1f1f1;
+}
+
+#ux ul {
+    margin-top: -10px;
+}
+
+#ux a,
+.laesmere {
+    color: #577ce2;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#ux .tema03_farve {
+
+    background-color: #1b722f;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#ux .laesmere:hover {
+    color: #3f21e3;
+}
+
+#app_link {
+    padding: 20px;
+    border-radius: 20px;
+    margin: 5vw;
+
+}
+
+#app_link img {
+    width: 100px;
+}
+
+#app_link img:hover {
+    transform: scale(1.1);
+}
 
 /*--------GENERALLE VIDEO SETTINGS--------*/
 
