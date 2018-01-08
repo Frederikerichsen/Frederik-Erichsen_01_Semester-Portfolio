@@ -79,6 +79,11 @@ p {
     sans-serif;
 }
 
+.boldfont {
+    font-size: 1.2em;
+    text-decoration: underline;
+}
+
 /*--------TYPOGRAFI SLUT--------*/
 
 /*--------DROPDOWN MENU START--------*/
@@ -856,6 +861,42 @@ a,
     box-shadow: 1px 8px 16px 1px rgba(0, 0, 0, 0.5);
 }
 
+#splashimage3 {
+    text-align: center;
+    background-image: url("image/tema03/cphdox_falstersfremtid_2.PNG");
+    height: 100%;
+    min-height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 1px 8px 16px 1px rgba(0, 0, 0, 0.5);
+}
+
+#splashimage4 {
+    text-align: center;
+    background-image: url("image/tema02/hotdawg.png");
+    height: 100%;
+    min-height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 1px 8px 16px 1px rgba(0, 0, 0, 0.5);
+}
+
+#splashimage5 {
+    text-align: center;
+    background-image: url("image/tema02/sexogsamfund.png");
+    height: 100%;
+    min-height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 1px 8px 16px 1px rgba(0, 0, 0, 0.5);
+}
+
 /*--------TEMA 1 - POPART START--------*/
 
 #popart {
@@ -1032,6 +1073,205 @@ a,
 }
 
 /*--------TEMA 1 & 3 - PRINTERREFILL SLUT--------*/
+
+/*--------TEMA 2 - SEX OG SAMFUND START--------*/
+
+#sexogsamfund {
+    clear: both;
+    background-color: #223040;
+    padding: 10px 0px;
+    width: 100%;
+}
+
+
+#sexogsamfund .sexogsamfundsectionwrapper {
+    display: inline-block;
+    flex-wrap: wrap;
+
+}
+
+#sexogsamfund .sexogsamfundcolumn {
+    padding: 1vw 18vw;
+}
+
+#sexogsamfund .pictures {
+    box-shadow: 0px -1px 30px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+#sexogsamfund .tools img {
+    width: 50%;
+}
+
+#sexogsamfund cite {
+    text-align: right;
+    font-size: 0.9em;
+    color: #A9B9CA;
+}
+
+#sexogsamfund h5 {
+    letter-spacing: 0.5px;
+    font-size: 1.2em;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #f1f1f1;
+    text-transform: uppercase;
+
+}
+
+#sexogsamfund h2 {
+    margin-top: -20px;
+    transition: all 200ms ease-in;
+    text-transform: capitalize;
+    text-align: left;
+    font-size: 2.2em;
+    color: #f1f1f1;
+}
+
+#sexogsamfund h2:hover {
+    font-size: 2.4em;
+    transition: all 200ms ease-in;
+    border-bottom: 1px solid #1c1e2a;
+    z-index: 2;
+    color: #A9B9CA;
+    cursor: default;
+}
+
+#sexogsamfund p {
+    margin-top: -2px;
+    color: #f1f1f1;
+    text-align: left;
+    cursor: default;
+}
+
+#sexogsamfund li {
+    text-align: left;
+    color: #f1f1f1;
+}
+
+#sexogsamfund ul {
+    margin-top: -10px;
+}
+
+#sexogsamfund a,
+.laesmere {
+    color: #577ce2;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#sexogsamfund .tema02_farve {
+    background-color: #303090;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#sexogsamfund .laesmere:hover {
+    color: #3f21e3;
+}
+
+/*--------TEMA 2 - SEX OG SAMFUND SLUT--------*/
+
+/*--------TEMA 3 - CPHDOX START--------*/
+
+#cphdox {
+    clear: both;
+    background-color: #223040;
+    padding: 10px 0px;
+    width: 100%;
+}
+
+
+#cphdox .cphdoxsectionwrapper {
+    display: inline-block;
+    flex-wrap: wrap;
+
+}
+
+#cphdox .cphdoxcolumn {
+    padding: 1vw 18vw;
+}
+
+#cphdox .pictures {
+    box-shadow: 0px -1px 30px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+#cphdox .tools img {
+    width: 50%;
+}
+
+#cphdox cite {
+    text-align: right;
+    font-size: 0.9em;
+    color: #A9B9CA;
+}
+
+#cphdox h5 {
+    letter-spacing: 0.5px;
+    font-size: 1.2em;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #f1f1f1;
+    text-transform: uppercase;
+
+}
+
+#cphdox h2 {
+    margin-top: -20px;
+    transition: all 200ms ease-in;
+    text-transform: capitalize;
+    text-align: left;
+    font-size: 2.2em;
+    color: #f1f1f1;
+}
+
+#cphdox h2:hover {
+    font-size: 2.4em;
+    transition: all 200ms ease-in;
+    border-bottom: 1px solid #1c1e2a;
+    z-index: 2;
+    color: #A9B9CA;
+    cursor: default;
+}
+
+#cphdox p {
+    margin-top: -2px;
+    color: #f1f1f1;
+    text-align: left;
+    cursor: default;
+}
+
+#cphdox li {
+    text-align: left;
+    color: #f1f1f1;
+}
+
+#cphdox ul {
+    margin-top: -10px;
+}
+
+#cphdox a,
+.laesmere {
+    color: #577ce2;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#cphdox .tema03_farve {
+
+    background-color: #1b722f;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#cphdox .laesmere:hover {
+    color: #3f21e3;
+}
+
+/*--------TEMA 3 - CPHDOX SLUT--------*/
 
 /*--------GENERALLE VIDEO SETTINGS--------*/
 
